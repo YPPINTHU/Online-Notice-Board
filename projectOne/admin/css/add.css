@@ -1,0 +1,166 @@
+
+
+
+/*------------------------Header section----------------------*/
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:20px 10px;
+    background-color: #24252A;
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+   cursor: pointer; 
+   margin-right: auto;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+   color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.logoutbtn{
+    border-radius: 10px; 
+    
+ }
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+/*------------------------Heading----------------------*/
+
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3d4054;
+    padding: 10px 10px;
+    
+}
+
+
+/*------------------------content section----------------------*/
+
+/* .content{
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 18px;
+text-decoration: none;
+background-size: cover;
+background-color: #24252A;
+line-height: 40px;
+} */
+
+.addbtn{
+   border-radius: 10px; 
+   
+}
+.add{
+    text-align: right;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.card{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 5px #3B3131;
+}
+
+.adimg{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+
+/*---------------------------for Sidebar-------------------*/
+
+.sidebar{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    background-color: #343539;
+}
+
+.sidebar a {
+    padding:  8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+
+
+}
+.sidebar a:hover{
+    background-color: #584e46;
+
+}
+
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 2px;
+    font-size: 28px;
+
+}
+.openbtn{
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+
+}
+.openbtn:hover{
+    color: #ecdac9;
+
+}
+#main{
+    transition:0.5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px){
+    .sidebar{padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+    
+
+
